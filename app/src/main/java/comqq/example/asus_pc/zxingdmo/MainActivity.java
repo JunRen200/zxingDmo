@@ -99,8 +99,6 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this,"内容为空",Toast.LENGTH_LONG).show();
             } else {
                 Toast.makeText(this,"扫描成功",Toast.LENGTH_LONG).show();
-                Toast.makeText(this,"扫描成功",Toast.LENGTH_LONG).show();
-                //aaaaaaa
                 // ScanResult 为 获取到的字符串
                 String ScanResult = intentResult.getContents();
                 txt.setText(ScanResult);
